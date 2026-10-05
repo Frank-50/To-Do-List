@@ -1,0 +1,44 @@
+
+/* Tela_login */
+body {
+    margin: 0;
+}
+
+.conteiner_login{
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner_login fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner_botao{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ 
+/* Tela_cadastro */
+body.pagina_cadastro {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner_cadastro fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
