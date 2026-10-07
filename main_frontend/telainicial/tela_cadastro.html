@@ -22,6 +22,7 @@
                 <br>
                 <label for="senha">password</label>
                 <input type="password" id="senha" name="senha">
+                <button type="button" id="exibir">exibir</button>
                 <br><br>
                   <div class="conteiner_botoes">
                      <button type="submit">Cadastra</button>
@@ -32,6 +33,22 @@
              <p>Já possuo Conta? <a href="tela_login.html">Login</a></p>
         </fieldset>
    </div>
+
+   <script>
+
+      const input = document.getElementById("senha")
+      const butao = document.getElementById("exibir")
+
+      butao.addEventListener("click", () => {
+         if (input.type === "password") {
+            input.type = "text";
+            butao.textContent = "Ocultar"
+         } else {
+            input.type = "password"
+            butao.textContent = "exibir"
+         }
+      })
+   </script>
 
 </body>
 </html>
